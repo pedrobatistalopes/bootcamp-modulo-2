@@ -1,0 +1,18 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+table th{
+    background-color: #eee;
+    padding: 10px;
+}
+
+table td {
+    border-bottom: 1px solid #cccccc;
+}
+
+table tfoot td {
+    background-color: #a5beed;
+}
+table tr:nth-child(odd){
+    background-color: #eee;
+}
