@@ -1,0 +1,28 @@
+.input{
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+}
+
+input:focus {
+    box-shadow: 0 0 5px blue;
+}
+
+.btn {
+        padding: 10px;
+        background-color: rgb(101, 173, 255);
+        border: none;
+        color:#fff;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition: all 3s;
+}
+
+.btn:hover{
+    background-color: rgb(44, 110, 185);
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: rgb(27, 5, 78);
+}   
